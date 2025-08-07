@@ -1,0 +1,6 @@
+q      - Fecha o programa
+enter  - Traduz e fala a frase capturada
+r      - Limpa a frase capturada e a tradução
+o      - Inicia a gravação de áudio (voz)
+p      - Para a gravação de áudio e reconhece a fala
+l      - Limpa o texto reconhecido da voz
