@@ -18,7 +18,7 @@ import numpy as np
 from tkinter import simpledialog, messagebox
 import glob
 
-camera = 2
+camera = 0
 
 # Inicialização do MediaPipe
 mp_hands = mp.solutions.hands
@@ -262,4 +262,5 @@ def gravar_novo_sinal():
 
 
 if __name__ == "__main__":
+
     gravar_novo_sinal()
