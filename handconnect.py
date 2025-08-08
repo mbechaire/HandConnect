@@ -12,7 +12,7 @@ from tradutor import traduzir_bruto_para_portugues
 import pyttsx3
 import speech_recognition as sr
 
-camera = 2
+camera = 0
 
 # Garante que os arquivos .pkl sejam buscados na mesma pasta do script
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -34,7 +34,7 @@ hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_c
 
 engine = pyttsx3.init()
 
-MICROFONE_INDEX = 1  # Troque para o índice do microfone desejado
+MICROFONE_INDEX = 0  # Troque para o índice do microfone desejado
 
 gravando_audio = False
 audio_buffer = None
@@ -329,4 +329,5 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
